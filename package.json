@@ -1,7 +1,13 @@
 {
+  "name": "donatorbot",
+  "version": "1.0.0",
+  "description": "A Discord bot for managing donator roles.",
+  "main": "donatorbot.js",
   "dependencies": {
     "discord.js": "^14.18.0",
-    "dotenv": "^16.4.7",
-    "fs": "^0.0.1-security"
+    "dotenv": "^16.4.7"
+  },
+  "scripts": {
+    "start": "node donatorbot.js"
   }
 }
